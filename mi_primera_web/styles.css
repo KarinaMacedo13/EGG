@@ -1,0 +1,47 @@
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: #fafafa;
+  font-family: "Inter", sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+  padding: 1em;
+  color: white;
+  border-radius: 5px;
+}
+
+.logo-container {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.elements-nav {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.elements-nav a {
+  font-weight: 800;
+  padding: 10px;
+  color: black;
+  background-color: greenyellow;
+  border-radius: 5px;
+}
+
+main {
+  padding: 50px 200px;
+}
